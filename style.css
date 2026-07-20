@@ -144,6 +144,17 @@ footer {
     gap: 30px;
     z-index: 1;
 }
+.seccion {
+    flex: 1;
+    min-width: 250px;
+}
+.seccion h2{
+    color: white;
+    
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
 .seccion-logo{
     display: flex;
     flex-direction: row;
