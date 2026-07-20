@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    margin-left: 60px;
+    padding: 10px 30px 10px 30px;
+
+    border: solid;
+    color: transparent;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+
+    backdrop-filter: blur(10px);
+}
+.logo {
+    display: flex;
+    gap: 5px;
+}
+.logo img {
+    width: 20px;
+    height: auto;
+}
+.logo h2 {
+    font-family: 'Orienta', sans-serif;
+    font-size: 20px;
+    color: #79a223;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'Orienta', sans-serif;
+    color: #79a223;
+}
+.hero-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 100px;
+    gap: 50px;
+
+}
+.presentacion h1{
+    font-family: 'Orienta', sans-serif;
+    font-size: 80px;
+    color: #79a223;
+}
+.presentacion p {
+    font-family: 'Orienta', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.hero-banner img {
+    height: 560px;
+    width: auto;
+}
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+.columna-beneficio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.subtitulo{
+    text-align: center;
+    font-family: 'Orienta', sans-serif;
+    color: #79a223;
+    font-size: 30px;
+
+    margin-top: 30px;
+}
+.tarjeta-beneficio {
+    display: flex;
+    flex-direction: row;
+
+    padding: 35px;
+    gap: 10px;
+}
+.icono {
+    color: #79a223;
+    margin-top: 5px;
+}
+.texto-beneficio {
+    display: flex;
+    flex-direction: column;
+}
+.texto-beneficio h3{
+    font-family: 'Orienta', sans-serif;
+    color: #79a223;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.texto-beneficio p{
+    font-family: 'Orienta', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.beneficios img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    background-color: #79a223;
+    position: relative;
+    gap: 20px;
+    top: 150px;
+
+
+}
+.footer-wave-diseño {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -250px;
+}
+.footer-contenedor {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.seccion-logo{
+    display: flex;
+    flex-direction: row;
+
+    padding: 20px;
+    gap: 10px;
+}
+.seccion-logo img{
+    width: 40px;
+    height: 40px;
+}
+.seccion-logo h2 {
+    font-family: 'Orienta', sans-serif;
+    color: white;
+}
+.seccion-links{
+    font-family: 'Orienta', sans-serif;
+    color: white;
+}
+.seccion-links ul {
+    list-style: none;
+}
+.seccion-links a{
+    text-decoration: none;
+    color: white;
+}
+/* Login*/
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px;
+}
+
+.tarjeta-sesion{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    border-color: transparent;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+
+    width: 50%;
+    height: auto;
+    gap: 25px;
+    padding: 40px;
+}
+.tarjeta-sesion h2{
+    font-family: 'Orienta', sans-serif;
+    text-align: center;
+}
+.tarjeta-sesion p {
+    font-family: 'Orienta', sans-serif;
+    text-align: center;
+    color: grey;
+}
+label{
+    font-family: 'Orienta', sans-serif;
+}
+input {
+    background-color: #d8dad87e;
+    border: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+button {
+    border: solid;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: #79a223;
+    padding: 5px;
+
+}
+button a {
+    text-decoration: none;
+    font-family: 'Orienta', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.password {
+    background-color: transparent;
+}
+.password a {
+    color: grey;
+}
